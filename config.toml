@@ -1,0 +1,62 @@
+baseURL = "/"
+title = "Fabian Clemenz"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Fabian Clemenz"
+  info = "Fullstack Developer, Tech Enthusiast and Yedi"
+  description = "Fabian Clemenz's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpg"
+
+  favicon_32 = "images/favicon.png"
+  favicon_16 = "images/favicon.png"
+
+  since = 2023
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+  commit = true
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/FabianClemenz/"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-gitlab fa-2x"
+  weight = 2
+  url = "https://gitlab.com/FabianClemenz/"
+[[params.social]]
+  name = "Stackoverflow"
+  icon = "fa fa-stack-overflow fa-2x"
+  weight = 3
+  url = "https://stackoverflow.com/users/14698152/fabianclemenz"
+[[params.social]]
+  name = "devsuit GmbH"
+  icon = "fa fa-briefcase fa-2x"
+  weight = 4
+  url = "https://devsuit.de"
+
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+[[menu.main]]
+  name = "Blog"
+  weight = 2
+  url  = "posts/"
