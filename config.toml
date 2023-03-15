@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Fabian Clemenz"
+title = "fabian clemenz"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -10,9 +10,9 @@ paginate = 20
 style = "github-dark"
 
 [params]
-  author = "Fabian Clemenz"
-  info = "Fullstack Developer, Tech Enthusiast and Yedi"
-  description = "Fabian Clemenz's personal website"
+  author = "fabian clemenz"
+  info = "fullstack developer, tech enthusiast and yedi"
+  description = "fabian Cclemenz's personal website"
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.jpg"
 
@@ -23,7 +23,7 @@ style = "github-dark"
 
   colorScheme = "auto"
   hidecolorschemetoggle = false
-  commit = true
+  commit = "https://github.com/luizdepra/hugo-coder/tree/main"
 
 [taxonomies]
   category = "categories"
@@ -53,10 +53,10 @@ style = "github-dark"
   url = "https://devsuit.de"
 
 [[menu.main]]
-  name = "About"
+  name = "about"
   weight = 1
   url = "about/"
 [[menu.main]]
-  name = "Blog"
+  name = "blog"
   weight = 2
   url  = "posts/"

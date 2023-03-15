@@ -2,7 +2,7 @@
 draft = true
 date = 2023-03-09T13:31:46+01:00
 title = "django 101: switching the primary key on existing models"
-description = ""
+description = "This Django 101 takes you through the steps of switching from one primary key to another on existing models, without harming your data"
 slug = "django-101-switching-primary-key-on-existing-models"
 authors = ["Fabian Clemenz"]
 tags = ["django", "database", "primary key switch", "uuid"]
@@ -18,15 +18,15 @@ After research, I used the instructions found in this [stackoverflow answer](htt
 
 ## caution
 
-Before applying these steps on your production database - **ALWAYS** test it with test data. And at best - test it several times. That saved me a lot of work, because I needed three iterations for all migrations to work as expected.
+Before applying these steps on your production database - **ALWAYS** test it with test data **AND** backup your database. And at best - test it several times. That saved me a lot of work, because I needed three iterations for all migrations to work as expected.
 
 ## sample code
 
-I created a sample django project to show the single steps. It can be found in my Github repository.
+I created a sample django project to show the single steps. It can be found in my [Github repository](https://github.com/FabianClemenz/primary-key-switch).
 
-The `0000_base_db_dump_before_pk_switch.json` in the fixtures folder contains a base dataset on which we will perform our operations. In`0001_db_dump_after_pk_switch.json` you can find the end result.
+The `0000_base_db_dump_before_pk_switch.json` in the fixtures folder contains a base dataset on which we will perform our operations. In `0001_db_dump_after_pk_switch.json` you can find the end result.
 
-I will reference the migrations located in primary_key_switch / test_app / migrations / while I explain the single steps.
+I will reference the migrations located in [primary_key_switch / test_app / migrations](https://github.com/FabianClemenz/primary-key-switch/tree/draft/initial/primary_key_switch/test_app/migrations) while I explain the single steps.
 
 ### basic models
 
