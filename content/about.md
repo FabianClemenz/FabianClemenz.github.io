@@ -2,7 +2,7 @@
 title: "about me"
 author: "fabian clemenz"
 date: 2023-03-15T09:03:19+01:00
-draft: true
+draft: false
 ---
 I'm a fullstack developer @ [devsuit GmbH](https://devsuit.de) since summer 2018. I design and write software mostly in Python and Javascript / Typescript,
 using several frameworks such as Django, VueJS but i have developed with quite a few other languages and frameworks.
