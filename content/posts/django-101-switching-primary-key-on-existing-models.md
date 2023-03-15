@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2023-03-09T13:31:46+01:00
 title = "django 101: switching the primary key on existing models"
 description = "This Django 101 takes you through the steps of switching from one primary key to another on existing models, without harming your data"
