@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2023-03-09T13:31:46+01:00
-title = "Django 101: switching the primary key on existing models"
+title = "Django 101: Switching the primary key on existing models"
 description = "This Django 101 takes you through the steps of switching from one primary key to another on existing models, without harming your data"
 slug = "django-101-switching-primary-key-on-existing-models"
 authors = ["Fabian Clemenz"]
