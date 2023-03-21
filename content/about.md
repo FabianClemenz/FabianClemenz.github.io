@@ -1,6 +1,6 @@
 ---
-title: "about me"
-author: "fabian clemenz"
+title: "About me"
+author: "Fabian Clemenz"
 date: 2023-03-15T09:03:19+01:00
 draft: false
 ---

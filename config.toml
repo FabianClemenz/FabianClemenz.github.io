@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "fabian clemenz"
+title = "Fabian Clemenz"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -10,9 +10,9 @@ paginate = 20
 style = "github-dark"
 
 [params]
-  author = "fabian clemenz"
-  info = "fullstack developer, tech enthusiast and yedi"
-  description = "fabian clemenz's personal website"
+  author = "Fabian Clemenz"
+  info = "Fullstack Developer, Tech Enthusiast and Yedi"
+  description = "Fabian Clemenz's personal website"
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.jpg"
 
@@ -53,10 +53,10 @@ style = "github-dark"
   url = "https://devsuit.de"
 
 [[menu.main]]
-  name = "about"
+  name = "About"
   weight = 1
   url = "about/"
 [[menu.main]]
-  name = "blog"
+  name = "Blog"
   weight = 2
   url  = "posts/"
